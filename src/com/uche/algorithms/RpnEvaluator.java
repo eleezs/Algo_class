@@ -6,11 +6,11 @@ public class RpnEvaluator {
   public static void main(String[] args) {
     // Array of test cases
     String[][] testCases = {
-        // { "5", "3", "+" },
+        { "5", "3", "+" },
         // { "15", "7", "1", "1", "+", "-", "/", "3", "*", "2", "1", "1", "+", "+", "-" },
         // { "2", "3", "*", "5", "+" },
         // { "*", "4", "+", "13", "5", "/", "+" },
-        { "5", "X", "+" }
+        // { "5", "X", "+" }
     };
 
     for (int i = 0; i < testCases.length; i++) {
